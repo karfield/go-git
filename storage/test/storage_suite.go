@@ -7,13 +7,13 @@ import (
 	"io"
 	"io/ioutil"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage"
+	"github.com/karfield/go-git/config"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/format/index"
+	"github.com/karfield/go-git/plumbing/storer"
+	"github.com/karfield/go-git/storage"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type Storer interface {

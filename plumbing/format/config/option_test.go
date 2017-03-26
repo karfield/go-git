@@ -1,7 +1,7 @@
 package config
 
 import (
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type OptionSuite struct{}

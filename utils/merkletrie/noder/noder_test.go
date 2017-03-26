@@ -3,7 +3,7 @@ package noder
 import (
 	"testing"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 func Test(t *testing.T) { TestingT(t) }

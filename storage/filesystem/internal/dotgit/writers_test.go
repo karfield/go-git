@@ -10,8 +10,8 @@ import (
 
 	"github.com/src-d/go-git-fixtures"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v2/osfs"
+	. "github.com/karfield/go-check"
+	"github.com/karfield/go-billy/osfs"
 )
 
 func (s *SuiteDotGit) TestNewObjectPack(c *C) {

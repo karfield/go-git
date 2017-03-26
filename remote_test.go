@@ -8,15 +8,15 @@ import (
 	"os"
 
 	"github.com/src-d/go-git-fixtures"
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/karfield/go-git/config"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/storer"
+	"github.com/karfield/go-git/storage"
+	"github.com/karfield/go-git/storage/filesystem"
+	"github.com/karfield/go-git/storage/memory"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v2/osfs"
+	. "github.com/karfield/go-check"
+	"github.com/karfield/go-billy/osfs"
 )
 
 type RemoteSuite struct {

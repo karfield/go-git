@@ -1,11 +1,11 @@
 package merkletrie_test
 
 import (
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/internal/fsnoder"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/noder"
+	"github.com/karfield/go-git/utils/merkletrie"
+	"github.com/karfield/go-git/utils/merkletrie/internal/fsnoder"
+	"github.com/karfield/go-git/utils/merkletrie/noder"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type ChangeSuite struct{}

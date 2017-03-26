@@ -1,9 +1,9 @@
 package fsnoder
 
 import (
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/noder"
+	"github.com/karfield/go-git/utils/merkletrie/noder"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type FSNoderSuite struct{}

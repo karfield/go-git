@@ -3,8 +3,8 @@ package packfile
 import (
 	"sort"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/storer"
 )
 
 const (

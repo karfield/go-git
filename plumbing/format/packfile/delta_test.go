@@ -3,7 +3,7 @@ package packfile
 import (
 	"fmt"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type DeltaSuite struct {

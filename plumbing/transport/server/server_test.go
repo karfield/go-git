@@ -5,13 +5,13 @@ import (
 	"testing"
 
 	"github.com/src-d/go-git-fixtures"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/client"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/server"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/karfield/go-git/plumbing/transport"
+	"github.com/karfield/go-git/plumbing/transport/client"
+	"github.com/karfield/go-git/plumbing/transport/server"
+	"github.com/karfield/go-git/storage/filesystem"
+	"github.com/karfield/go-git/storage/memory"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 func Test(t *testing.T) { TestingT(t) }

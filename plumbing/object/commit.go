@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/storer"
+	"github.com/karfield/go-git/utils/ioutil"
 )
 
 // Hash represents the hash of an object

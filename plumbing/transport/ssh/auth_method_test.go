@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type SuiteCommon struct{}

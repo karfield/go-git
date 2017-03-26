@@ -6,16 +6,16 @@ import (
 	"os"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/internal/revision"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/karfield/go-git/config"
+	"github.com/karfield/go-git/internal/revision"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/object"
+	"github.com/karfield/go-git/plumbing/storer"
+	"github.com/karfield/go-git/storage"
+	"github.com/karfield/go-git/storage/filesystem"
 
-	"gopkg.in/src-d/go-billy.v2"
-	"gopkg.in/src-d/go-billy.v2/osfs"
+	"github.com/karfield/go-billy"
+	"github.com/karfield/go-billy/osfs"
 )
 
 var (

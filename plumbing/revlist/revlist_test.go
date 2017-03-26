@@ -4,12 +4,12 @@ import (
 	"testing"
 
 	"github.com/src-d/go-git-fixtures"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/object"
+	"github.com/karfield/go-git/plumbing/storer"
+	"github.com/karfield/go-git/storage/filesystem"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 func Test(t *testing.T) { TestingT(t) }

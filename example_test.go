@@ -8,12 +8,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/karfield/go-git"
+	"github.com/karfield/go-git/config"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/storage/memory"
 
-	"gopkg.in/src-d/go-billy.v2/memfs"
+	"github.com/karfield/go-billy/memfs"
 )
 
 func ExampleClone() {

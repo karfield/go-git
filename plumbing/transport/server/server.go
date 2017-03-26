@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"io"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp/capability"
-	"gopkg.in/src-d/go-git.v4/plumbing/revlist"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/format/packfile"
+	"github.com/karfield/go-git/plumbing/protocol/packp"
+	"github.com/karfield/go-git/plumbing/protocol/packp/capability"
+	"github.com/karfield/go-git/plumbing/revlist"
+	"github.com/karfield/go-git/plumbing/storer"
+	"github.com/karfield/go-git/plumbing/transport"
 )
 
 var DefaultServer = NewServer(DefaultLoader)

@@ -3,7 +3,7 @@ package config
 import (
 	"bytes"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type EncoderSuite struct{}

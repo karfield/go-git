@@ -8,8 +8,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/pktline"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/format/pktline"
 )
 
 var (

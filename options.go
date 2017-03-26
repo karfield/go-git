@@ -3,10 +3,10 @@ package git
 import (
 	"errors"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp/sideband"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
+	"github.com/karfield/go-git/config"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/protocol/packp/sideband"
+	"github.com/karfield/go-git/plumbing/transport"
 )
 
 // SubmoduleRescursivity defines how depth will affect any submodule recursive

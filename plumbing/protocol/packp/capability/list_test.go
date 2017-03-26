@@ -3,7 +3,7 @@ package capability
 import (
 	"testing"
 
-	check "gopkg.in/check.v1"
+	check "github.com/karfield/go-check"
 )
 
 func Test(t *testing.T) { check.TestingT(t) }

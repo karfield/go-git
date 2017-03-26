@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"gopkg.in/src-d/go-git.v4"
-	. "gopkg.in/src-d/go-git.v4/_examples"
+	"github.com/karfield/go-git"
+	. "github.com/karfield/go-git/_examples"
 )
 
 // Open an existing repository in a specific folder.

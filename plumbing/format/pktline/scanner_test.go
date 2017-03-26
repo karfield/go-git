@@ -7,9 +7,9 @@ import (
 	"io"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/format/pktline"
+	"github.com/karfield/go-git/plumbing/format/pktline"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type SuiteScanner struct{}

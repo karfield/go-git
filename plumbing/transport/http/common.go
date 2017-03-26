@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/protocol/packp"
+	"github.com/karfield/go-git/plumbing/transport"
 )
 
 type client struct {

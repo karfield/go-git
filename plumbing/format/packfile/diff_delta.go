@@ -3,7 +3,7 @@ package packfile
 import (
 	"io/ioutil"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/karfield/go-git/plumbing"
 )
 
 // See https://github.com/jelmer/dulwich/blob/master/dulwich/pack.py and

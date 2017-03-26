@@ -5,9 +5,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
+	"github.com/karfield/go-git/plumbing/transport"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type LoaderSuite struct {

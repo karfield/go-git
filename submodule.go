@@ -3,8 +3,8 @@ package git
 import (
 	"errors"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/karfield/go-git/config"
+	"github.com/karfield/go-git/plumbing"
 )
 
 var (

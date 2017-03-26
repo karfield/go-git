@@ -1,6 +1,6 @@
 package object
 
-import . "gopkg.in/check.v1"
+import . "github.com/karfield/go-check"
 
 type CommitWalkerSuite struct {
 	BaseObjectsSuite

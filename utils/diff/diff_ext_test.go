@@ -3,10 +3,10 @@ package diff_test
 import (
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/utils/diff"
+	"github.com/karfield/go-git/utils/diff"
 
 	"github.com/sergi/go-diff/diffmatchpatch"
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 func Test(t *testing.T) { TestingT(t) }

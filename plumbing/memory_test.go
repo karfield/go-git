@@ -3,7 +3,7 @@ package plumbing
 import (
 	"io/ioutil"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type MemoryObjectSuite struct{}

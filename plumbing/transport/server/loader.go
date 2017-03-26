@@ -1,12 +1,12 @@
 package server
 
 import (
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/karfield/go-git/plumbing/storer"
+	"github.com/karfield/go-git/plumbing/transport"
+	"github.com/karfield/go-git/storage/filesystem"
 
-	"gopkg.in/src-d/go-billy.v2"
-	"gopkg.in/src-d/go-billy.v2/osfs"
+	"github.com/karfield/go-billy"
+	"github.com/karfield/go-billy/osfs"
 )
 
 // DefaultLoader is a filesystem loader ignoring host and resolving paths to /.

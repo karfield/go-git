@@ -6,8 +6,8 @@ import (
 	"io"
 	"strconv"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/format/packfile"
 )
 
 var (

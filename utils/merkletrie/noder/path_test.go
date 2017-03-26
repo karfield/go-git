@@ -1,6 +1,6 @@
 package noder
 
-import . "gopkg.in/check.v1"
+import . "github.com/karfield/go-check"
 
 type PathSuite struct{}
 

@@ -3,7 +3,7 @@ package sideband
 import (
 	"bytes"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 func (s *SidebandSuite) TestMuxerWrite(c *C) {

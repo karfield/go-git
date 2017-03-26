@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/pktline"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp/capability"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/format/pktline"
+	"github.com/karfield/go-git/plumbing/protocol/packp/capability"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type AdvRefsEncodeSuite struct{}

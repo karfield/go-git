@@ -3,8 +3,8 @@ package config
 import (
 	"testing"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	. "github.com/karfield/go-check"
+	"github.com/karfield/go-git/plumbing"
 )
 
 type RefSpecSuite struct{}

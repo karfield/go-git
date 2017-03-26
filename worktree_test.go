@@ -4,13 +4,13 @@ import (
 	"io/ioutil"
 	"os"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
+	"github.com/karfield/go-git/plumbing/filemode"
+	"github.com/karfield/go-git/plumbing/format/index"
 
 	"github.com/src-d/go-git-fixtures"
-	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v2/memfs"
-	"gopkg.in/src-d/go-billy.v2/osfs"
+	. "github.com/karfield/go-check"
+	"github.com/karfield/go-billy/memfs"
+	"github.com/karfield/go-billy/osfs"
 )
 
 type WorktreeSuite struct {

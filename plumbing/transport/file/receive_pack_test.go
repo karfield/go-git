@@ -4,9 +4,9 @@ import (
 	"os"
 
 	"github.com/src-d/go-git-fixtures"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/test"
+	"github.com/karfield/go-git/plumbing/transport/test"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type ReceivePackSuite struct {

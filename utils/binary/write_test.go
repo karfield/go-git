@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 func (s *BinarySuite) TestWrite(c *C) {

@@ -3,17 +3,17 @@ package packfile_test
 import (
 	"io"
 
-	"gopkg.in/src-d/go-billy.v2/memfs"
+	"github.com/karfield/go-billy/memfs"
 
 	"github.com/src-d/go-git-fixtures"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/karfield/go-git/plumbing"
+	"github.com/karfield/go-git/plumbing/format/idxfile"
+	"github.com/karfield/go-git/plumbing/format/packfile"
+	"github.com/karfield/go-git/plumbing/storer"
+	"github.com/karfield/go-git/storage/filesystem"
+	"github.com/karfield/go-git/storage/memory"
 
-	. "gopkg.in/check.v1"
+	. "github.com/karfield/go-check"
 )
 
 type ReaderSuite struct {
